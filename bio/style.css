@@ -1,3 +1,9 @@
 body {
-    background-color: rgb(165, 221, 202);
+  background-color: rgb(165, 221, 202);
+}
+.head {
+  text-align: center;
+}
+.body {
+  text-indent: 25px;
 }
