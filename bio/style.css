@@ -8,18 +8,49 @@ body {
 }
 p, ul {
     text-indent: 25px;
-    border: 3px dashed rgb(126, 44, 44);
+    /*border: 3px dashed rgb(126, 44, 44);*/
     padding: 10px;
     margin: 10px;
+    font-size: 5mm;
 }
 h1, h2 {
     text-align: center;
     font-family: Arial, Helvetica, sans-serif;
 }
-img {
-    width: 100px;
-    border: 3px solid burlywood;
-}
 li {
     padding: 10px;
+}
+.header {
+    padding: 20px;
+    /*text-align: center;*/
+
+}
+.header img {
+    width: 150px;
+    height: 190px;
+}
+.photo {
+    display: inline-block;
+    border: 1.5px solid black;
+}
+.author {
+    margin-left: 15px;
+    vertical-align: top;
+    display: inline-block;
+}
+img {
+    display: inline-block;
+    vertical-align: middle;
+}
+.info_box {
+    text-align: left;
+}
+img[data-icon-image] {
+    width: 50px;
+}
+.contacts, .links {
+    display: inline-block;
+}
+.cont_box {
+    text-align: center;
 }
