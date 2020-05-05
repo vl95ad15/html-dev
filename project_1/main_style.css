@@ -1,0 +1,77 @@
+html {
+    font-family: Tahoma;
+}
+
+body {
+    margin: 50px 100px 50px;
+}
+
+.left_column {
+    float: left;
+    width: 45%;
+    text-align: center;
+}
+
+.photo img {
+    width: 350px;
+    height: 450px;
+    border: 5px solid rgb(233, 233, 233);
+    border-radius: 5%;
+}
+
+.photo,
+.cont_box {
+    display: inline-block;
+}
+
+.cont_box {
+    width: 350px;
+    margin: 5px;
+    padding: 10px;
+}
+
+.cont_box a {
+    display: inline-block;
+    padding: 5px;
+}
+
+img[data-icon-image] {
+    width: 50px;
+    height: 50px;
+}
+
+.right_column {
+    float: right;
+    width: 52%;
+}
+
+.header_box {
+    margin-bottom: 15px;
+    padding: 10px;
+    background-color: rgb(233, 233, 233);
+    text-align: center;
+}
+
+.name {
+    font-size: 35px;
+}
+
+.age {
+    font-size: 20px;
+}
+
+.info {
+    background-color: rgb(233, 233, 233);
+    font-size: 15px;
+    padding: 5px;
+}
+
+h2 {
+    text-align: center;
+    color: rgb(91, 91, 255);
+}
+
+p {
+    text-indent: 25px;
+    margin: 20px;
+}
