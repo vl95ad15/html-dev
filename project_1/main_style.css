@@ -4,6 +4,7 @@ html {
 
 body {
     margin: 50px 100px 50px;
+    background-color: rgb(233, 233, 233);
 }
 
 .left_column {
@@ -15,8 +16,9 @@ body {
 .photo img {
     width: 350px;
     height: 450px;
-    border: 5px solid rgb(233, 233, 233);
+    border: 2px solid rgb(240, 240, 240);
     border-radius: 5%;
+    box-shadow: 0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22);
 }
 
 .photo,
@@ -48,8 +50,9 @@ img[data-icon-image] {
 .header_box {
     margin-bottom: 15px;
     padding: 10px;
-    background-color: rgb(233, 233, 233);
+    background-color: rgb(240, 240, 240);
     text-align: center;
+    box-shadow: 0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22);
 }
 
 .name {
@@ -61,14 +64,15 @@ img[data-icon-image] {
 }
 
 .info {
-    background-color: rgb(233, 233, 233);
+    background-color: rgb(240, 240, 240);
     font-size: 15px;
     padding: 5px;
+    box-shadow: 0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22);
 }
 
 h2 {
     text-align: center;
-    color: rgb(91, 91, 255);
+    color: rgb(52, 52, 138);
 }
 
 p {
