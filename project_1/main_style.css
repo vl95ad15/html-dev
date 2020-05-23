@@ -1,17 +1,15 @@
 html {
-    font-family: Tahoma;
-    padding-bottom: 20px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
 body {
-    margin: 50px 100px 50px;
     background-color: rgb(233, 233, 233);
 }
 
-.left_column {
-    float: left;
-    width: 45%;
-    text-align: center;
+.flexbox {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
 }
 
 .photo img {
@@ -22,55 +20,36 @@ body {
     box-shadow: 0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22);
 }
 
-.photo,
-.cont_box {
-    display: inline-block;
-}
-
-.cont_box {
-    width: 350px;
-    margin: 5px;
-    padding: 10px;
-}
-
-.cont_box a {
-    display: inline-block;
-    padding: 5px;
-}
 
 img[data-icon-image] {
     width: 50px;
     height: 50px;
 }
 
-.right_column {
-    float: right;
-    width: 52%;
-}
-
-.header_box {
-    margin-bottom: 15px;
-    padding: 10px;
-    background-color: rgb(240, 240, 240);
+.links {
     text-align: center;
-    box-shadow: 0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22);
-    border-radius: 20px;
+    width: 400px;
+    padding: 10px;
 }
 
-.name {
-    font-size: 35px;
-}
-
-.age {
-    font-size: 20px;
-}
-
-.info {
-    background-color: rgb(240, 240, 240);
-    font-size: 15px;
+.links a {
+    display: inline-block;
     padding: 5px;
-    box-shadow: 0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22);
+}
+
+.photo {
+    text-align: center;
+}
+
+.header {
+    font-size: 25px;
+    padding: 5px;
+    text-align: center;
+    width: 600px;
+    height: 100px;
+    background-color: rgb(240, 240, 240);
     border-radius: 20px;
+    box-shadow: 0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22);
 }
 
 h2 {
@@ -78,7 +57,20 @@ h2 {
     color: rgb(52, 52, 138);
 }
 
-p {
+.header p {
+    margin: 5px;
+    padding: 2px;
+}
+
+.info {
+    width: 600px;
+    padding: 5px;
+    margin-top: 10px;
+    background-color: rgb(240, 240, 240);
+    border-radius: 20px;
+    box-shadow: 0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22);
+}
+
+.info p {
     text-indent: 25px;
-    margin: 20px;
 }
