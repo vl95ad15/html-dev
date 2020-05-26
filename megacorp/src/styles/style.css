@@ -47,21 +47,26 @@ body {
   position: absolute;
   right: -1px;
   top: 17em;
-  height: 2em;
+  height: 5em;
   width: 100%;
-  padding: 1em 0em;
+  padding: 0
 }
 
 #user p {
-  display: inline;
+  display: block;
   vertical-align: middle;
   margin-left: 0.75em;
+}
+
+.logout {
+  text-align: right;
+  margin-right: 0.75em;
 }
 
 #news {
   position: absolute;
   right: 0;
-  top: 28.25em;
+  top: 29.25em;
   width: 23em;
   padding-bottom: 0.75em;
 }
