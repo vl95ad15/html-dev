@@ -35,6 +35,14 @@
             text-align: center;
         }
 
+        .navbar ul {
+            display: flex;
+        }
+
+        .navbar ul li {
+            list-style: none;
+        }
+
         .navbar a:hover {
             background-color: #ddd;
             color: black;
