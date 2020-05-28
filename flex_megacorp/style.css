@@ -92,18 +92,19 @@ body {
 }
 
 #grad1 {
-    background: rgb(255,255,255);
-background: linear-gradient(90deg, rgba(255,255,255,1) 0%, rgba(179,179,179,1) 50%, rgba(101,122,133,1) 100%);
+    background: rgb(230, 246, 255);
+    background: linear-gradient(90deg, rgba(230, 246, 255, 1) 0%, rgba(138, 186, 201, 1) 50%, rgba(51, 113, 145, 1) 100%);
+
 }
 
 #grad2 {
-    background: rgb(255,255,255);
-background: linear-gradient(90deg, rgba(255,255,255,1) 0%, rgba(145,151,154,1) 46%, rgba(148,106,55,1) 100%);
+    background: rgb(255, 255, 255);
+    background: linear-gradient(90deg, rgba(255, 255, 255, 1) 0%, rgba(179, 179, 179, 1) 50%, rgba(101, 122, 133, 1) 100%);
 }
 
 #grad3 {
-    background: rgb(230,246,255);
-background: linear-gradient(90deg, rgba(230,246,255,1) 0%, rgba(138,186,201,1) 50%, rgba(51,113,145,1) 100%);
+    background: rgb(255, 255, 255);
+    background: linear-gradient(90deg, rgba(255, 255, 255, 1) 0%, rgba(145, 151, 154, 1) 46%, rgba(148, 106, 55, 1) 100%);
 }
 
 .footer {
