@@ -32,7 +32,6 @@
             color: white;
             padding: 14px 20px;
             text-decoration: none;
-            text-align: center;
         }
 
         .navbar ul {
@@ -40,6 +39,7 @@
         }
 
         .navbar ul li {
+            text-align: center;
             list-style: none;
         }
 
@@ -86,7 +86,11 @@
         }
 
         @media screen and (max-width: 700px) {
-            .content, .navbar {
+            .content, .navbar, .navbar ul {
                 flex-direction: column;
+            }
+
+            .navbar ul li {
+                padding: 11px 14px;
             }
         }
