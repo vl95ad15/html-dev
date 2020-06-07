@@ -1,0 +1,21 @@
+@media screen and (max-width: 765px) {
+    .container {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .header {
+        position: relative;
+        margin-bottom: 10px;
+    }
+
+    .links {
+        position: absolute;
+        top: 200px;
+        right: 0;
+    }
+
+    .links a {
+        display: block;
+    }
+}
