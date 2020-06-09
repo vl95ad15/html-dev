@@ -1,4 +1,4 @@
-@media screen and (max-width: 765px) {
+@media screen and (max-width: 768px) {
     .container {
         display: flex;
         flex-direction: column;
@@ -11,11 +11,16 @@
 
     .links {
         position: absolute;
-        top: 200px;
-        right: 0;
+        top: 120px;
+        right: 50px;
     }
 
     .links a {
         display: block;
+    }
+
+    .photo img {
+        width: 250px;
+        height: 320px;
     }
 }
