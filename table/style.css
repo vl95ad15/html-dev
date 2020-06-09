@@ -1,0 +1,82 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+    background: url(../table/img/bgimg.jpg);
+    margin-top: -40px;
+    padding-top: 55px;
+    background-position: center top;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+#header {
+    display: flex;
+    margin: 0;
+    padding: 0;
+}
+
+#ng_logo {
+    width: 150px;
+    height: 170px;
+}
+
+#header_title p {
+    padding: 0;
+    margin-left: 10px;
+    font-size: 50px;
+    color: #fff;
+}
+
+table {
+    width: 100%;
+}
+
+table, td, th {
+    border: 2px solid black;
+    border-collapse: collapse;
+}
+
+th {
+    border: none;
+    text-align: left;
+    text-transform: uppercase;
+    padding: 10px;
+    background-color: #ca3136;
+    color: #fff;
+}
+
+td {
+    padding: 7px;
+    border: none;
+}
+
+table tr:nth-child(even) {
+    background-color: #fff;
+}
+
+table tr:nth-child(odd) {
+    background-color: #eee;
+}
+
+#info {
+    text-align: center;
+    background-color: #fff;
+}
+
+.nation {
+    display: inline-block;
+    position: relative;
+}
+
+.nation:hover::after { 
+    content: attr(data-title);
+    position: absolute;
+    z-index: 1;
+    font-size: 17px;
+    padding-left: 5px;
+}
