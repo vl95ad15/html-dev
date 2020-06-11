@@ -128,6 +128,57 @@ body {
     padding: 20px 150px 20px 150px;
 }
 
+.form_box_grid {
+    background-color: rgb(226, 225, 225);
+    margin: 20px 0px 20px 0px;
+    padding: 20px 150px 20px 150px;
+}
+
+form {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 15px;
+}
+
+.form_h {
+    grid-column: 1 / span 2;
+    grid-row: 1;
+}
+
+.form_h h2 {
+    text-align: center;
+}
+
+.fn {
+    grid-column: 1;
+    grid-row: 2;
+}
+
+.ln {
+    grid-column: 2;
+    grid-row: 2;
+}
+
+.un {
+    grid-column: 1 / span 2;
+    grid-row: 3;
+}
+
+.em {
+    grid-column: 1 / span 2;
+    grid-row: 4;
+}
+
+.check {
+    grid-column: 1 / span 2;
+    grid-row: 7;
+}
+
+.button {
+    grid-column: 1 / span 2;
+    grid-row: 8;
+}
+
 .form_box h2{
     text-align: center;
 }
@@ -146,9 +197,9 @@ hr {
 }
 
 input[type=text], input[type=password], input[type=date] {
-    width: 350px;
+    width: 100%;
     padding: 9px;
-    margin: 5px 0 22px 0;
+    margin: 5px 0 5px 0;
     display: block;
     border: none;
     background: #f1f1f1;
